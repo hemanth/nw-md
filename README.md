@@ -6,3 +6,5 @@
 
 __Build and run:__ `./bar.sh` that is nothing but `rm app.zip; zip -r app.zip *; nw app.zip`
 
+__App looks like:__
+![img](http://h3manth.com/i/e8042e6d10.png)
