@@ -1,0 +1,14 @@
+{
+  "name": "Markdown editor",
+  "description": "Simple md preview",
+  "version": "1.0.0",
+  "main": "index.html",
+  "window": {
+    "toolbar": false,
+    "width": 660,
+    "height": 500
+  },
+  "dependencies": {
+    "marked": "~0.3.0"
+  }
+}
