@@ -9,6 +9,12 @@
     "height": 500
   },
   "dependencies": {
-    "marked": "~0.3.0"
-  }
+    "marked": "~0.3.0",
+    "snyk": "^1.25.0"
+  },
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
