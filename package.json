@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "marked": "~0.3.0",
-    "snyk": "^1.46.0"
+    "snyk": "^1.192.0"
   },
   "scripts": {
     "snyk-protect": "snyk protect",
