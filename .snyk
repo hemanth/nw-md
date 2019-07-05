@@ -1,5 +1,5 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.8.0
+version: v1.13.5
 ignore: {}
 # patches apply the minimum changes required to fix a vulnerability
 patch:
@@ -9,3 +9,26 @@ patch:
   'npm:marked:20170907':
     - marked:
         patched: '2017-10-27T22:32:07.606Z'
+  SNYK-JS-LODASH-450202:
+    - snyk > snyk-nodejs-lockfile-parser > lodash:
+        patched: '2019-07-05T01:43:13.531Z'
+    - snyk > lodash:
+        patched: '2019-07-05T01:43:13.531Z'
+    - snyk > snyk-nuget-plugin > lodash:
+        patched: '2019-07-05T01:43:13.531Z'
+    - snyk > @snyk/dep-graph > lodash:
+        patched: '2019-07-05T01:43:13.531Z'
+    - snyk > inquirer > lodash:
+        patched: '2019-07-05T01:43:13.531Z'
+    - snyk > snyk-config > lodash:
+        patched: '2019-07-05T01:43:13.531Z'
+    - snyk > snyk-mvn-plugin > lodash:
+        patched: '2019-07-05T01:43:13.531Z'
+    - snyk > snyk-go-plugin > graphlib > lodash:
+        patched: '2019-07-05T01:43:13.531Z'
+    - snyk > snyk-nodejs-lockfile-parser > graphlib > lodash:
+        patched: '2019-07-05T01:43:13.531Z'
+    - snyk > snyk-php-plugin > @snyk/composer-lockfile-parser > lodash:
+        patched: '2019-07-05T01:43:13.531Z'
+    - snyk > @snyk/dep-graph > graphlib > lodash:
+        patched: '2019-07-05T01:43:13.531Z'
